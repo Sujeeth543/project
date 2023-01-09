@@ -1,0 +1,114 @@
+Linux Commands:
+--------------
+
+$ --- local user
+# --- Root user
+
+sudo su 
+
+
+cat > file ------> to create a file and enter the data into the file directly
+
+ctrl+z to save and come out of the file
+
+ls -l to check the file or directory permissions
+
+ls -a to check	the hidden files
+
+ctrl+shift + ---> to increase the font in terminal
+
+ctrl+shift - ---> to decrease the font in terminal
+
+sudo apt upgrade ---> to upgrade the repository
+
+sudo apt install vim* to install software
+
+file filename -----> to check the type of file
+
+head filename ------> to see topmost content of a file
+
+ls / ----> To check the file system
+
+lsblk ---> To check the partation
+top ----> to check all running task
+fg ---> to check foreground job
+bg ---> To check background job
+
+To check userid
+idusername====idslujeeth
+
+Groups:
+-------
+To create group:  sudo groupadd groupname   ex: sudo groupadd home
+
+To delete group: sudo groupdel groupname ex: sudo groupdel home
+
+To cehck temporeary loged data: ls -l /tmp/
+
+To group details: tail /etc/group
+---------------------------------
+Permissions:
+*************
+Read=R=4
+Write=W=2
+Execute=X=1
+
+u=user, g=group, o=ther
+ # chmod 500 file1
+Storage:
+-----------
+df -h to check the storage fiel system
+fdisk  /dev/root
+
+ssh -i mycentos.pem centos@3.17.69.225 ----> To login to centos 
+
+https://www.youtube.com/watch?v=wuC6nvbl6Y8---- master and slave archetecture
+
+
+jenkins service on ubuntu installation
+*****************************************************************************************
+
+https://phoenixnap.com/kb/install-jenkins-ubuntu
+
+sudo mkfs -t ext4 /dev/xvdf
+-----------------------------------------------------------------------------------------
+
+SonarCube Server installation
+*****************************
+
+digital-link url
+------------------
+https://learn.digital-lync.com/
+
+plugins in jenkins:
+--------------------
+
+1. deploy to container plugin
+2. Role based authentication plugin
+3. copy artifact polugin 
+
+
+command to copy slave.jar from master meachine
+------------------------------------------------
+wget http://172.31.44.92:8080/jnlpJars/slave.jar
+
+ssh ubuntu@172.31.46.189 java -jar slave.jar
+
+ 
+
+Job Description:-
+**********************
+Mandatory skills
+Experience in Devops
+Skills-Kubernetes, Jenkins
+Cloud Technology- AWS
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+git
+
+ansible
+
+jenkins
+
+docker
+
+kuberneties
+
+linux basic commands
+

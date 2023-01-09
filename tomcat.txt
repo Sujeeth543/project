@@ -1,0 +1,9 @@
+<tomcat-users>
+        <user username="admin" password="admin123" roles="manager-script"/>
+</tomcat-users>
+
+
+default location of jenkins
+---------------------------------
+
+/etc/default/jenkins

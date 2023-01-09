@@ -1,0 +1,31 @@
+ubuntu@ip-172-31-44-92:~$ java -jar jenkins-cli.jar -auth admin:admin123 -s http://18.143.176.48:8080/ version
+
+ubuntu@ip-172-31-44-92:~$ java -jar jenkins-cli.jar -auth admin:11cb6b759f19b62ec0af0b7ea7b54b01c8 -s http://18.143.176.48:8080/ version
+
+ubuntu@ip-172-31-44-92:~$ java -jar jenkins-cli.jar -auth admin:11cb6b759f19b62ec0af0b7ea7b54b01c8 -s http://18.143.176.48:8080/ help ---to see all cli commands
+
+ubuntu@ip-172-31-44-92:~$ java -jar jenkins-cli.jar -auth admin:11cb6b759f19b62ec0af0b7ea7b54b01c8 -s http://18.143.176.48:8080/ list-jobs
+
+JENKINS_URL=http://18.143.176.48:8080/
+JENKINS_USER=admin
+JENKINS_PASSWORD=11cb6b759f19b62ec0af0b7ea7b54b01c8
+#display all jobs
+
+
+echo " displaying all jobs from jenkins server "
+echo " ======================================== "
+java -jar ./jenkins-cli.jar -s "$JENKINS_URL" -auth "$JENKINS_USER:$JENKINS_PASSWORD" list-jobs
+
+echo "-----------------------------------------------------------------------------------------"
+~
+
+
+plugins:
+----------
+
+1. copy artofact
+2. deploy to container plugin
+3. default location of jenkins /etc/default/jenkins
+
+
+

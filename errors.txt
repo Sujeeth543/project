@@ -1,0 +1,11 @@
+1)ubuntu@ip-172-31-37-16:~$ wget http://172.31.43.240:8080/jnlpjars/slave.jar
+--2022-11-16 18:10:49--  http://172.31.43.240:8080/jnlpjars/slave.jar
+Connecting to 172.31.43.240:8080... connected.
+HTTP request sent, awaiting response... 503 Service Unavailable
+2022-11-16 18:10:52 ERROR 503: Service Unavailable.
+
+2)ubuntu@ip-172-31-37-16:~$ wget http://172.31.43.240:8080/jnlpjars/slave.jar
+--2022-11-16 18:12:41--  http://172.31.43.240:8080/jnlpjars/slave.jar
+Connecting to 172.31.43.240:8080... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2022-11-16 18:12:41 ERROR 403: Forbidden.
